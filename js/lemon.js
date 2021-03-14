@@ -30,9 +30,9 @@ document.addEventListener("DOMContentLoaded", function () {
 	};
 
 	if (screenWidth <= 992) {
-		img.setAttribute('src', '/img/BSPP22662.webp');
+		img.setAttribute('src', '../img/BSPP22662.webp');
 	} else {
-		img.setAttribute('src', '/img/BSPP2266.webp');
+		img.setAttribute('src', '../img/BSPP2266.webp');
 	};
 
 
