@@ -1,0 +1,65 @@
+* {
+  font-size: 16px;
+  font-family: "Josefin Sans";
+}
+.container {
+  width: 100%;
+  margin: auto;
+}
+@media (min-width: 300px) {
+  .container {
+		max-width: 95%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+		max-width: 520px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 570px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 943px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 944px;
+  }
+}
+
+.container-low {
+  width: 100%;
+  margin: auto;
+}
+
+@media (min-width: 576px) {
+  .container-low {
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-low {
+    max-width: 420px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-low {
+    max-width: 660px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-low {
+    max-width: 840px;
+  }
+}

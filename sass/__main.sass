@@ -1,0 +1,37 @@
+.main
+	padding-bottom: 104px
+	&__text
+		display: flex
+		justify-content: space-between
+		align-items: center
+		flex-wrap: wrap
+	&__title
+		font-size: 20px
+	&__info
+		font-size: 18px
+		width: 250px
+		text-align: right	
+	&__img
+		align-items: center
+		justify-content: center
+		display: flex
+	&__lang
+		transform: rotate(-90deg)
+		color: #828282
+	&__btn
+		background-color: transparent
+		border: none
+		cursor: pointer
+		color: grey
+@media screen and (max-width: 576px)
+	.main
+		padding-top: 100px
+		padding-bottom: 20px
+		&__info
+			padding-bottom: 20px
+			margin: 0 auto
+			text-align: center
+		&__title
+			margin: 0 auto
+			text-align: center
+			
