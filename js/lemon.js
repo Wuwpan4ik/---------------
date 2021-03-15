@@ -1,9 +1,3 @@
-var img = document.getElementById('img');
-if (screenWidth <= 992) {
-		img.setAttribute('src', './img/BSPP22662.webp');
-	} else {
-		img.setAttribute('src', './img/BSPP2266.webp');
-	};
 document.addEventListener("DOMContentLoaded", function () {
 	const screenWidth = window.screen.width;
 	var btn = document.getElementById('burger');
@@ -34,7 +28,12 @@ document.addEventListener("DOMContentLoaded", function () {
 		body.classList.toggle("active");
 	};
 
-
+	var img = document.getElementById('img');
+	if (screenWidth <= 992) {
+		img.setAttribute('src', './img/BSPP22662.webp');
+	} else {
+		img.setAttribute('src', './img/BSPP2266.webp');
+	};
 
 	btn.addEventListener("click", headerFunction);
 });
