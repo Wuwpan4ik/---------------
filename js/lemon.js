@@ -1,8 +1,13 @@
+var img = document.getElementById('img');
+if (screenWidth <= 992) {
+		img.setAttribute('src', './img/BSPP22662.webp');
+	} else {
+		img.setAttribute('src', './img/BSPP2266.webp');
+	};
 document.addEventListener("DOMContentLoaded", function () {
 	const screenWidth = window.screen.width;
 	var btn = document.getElementById('burger');
 	var nav = document.getElementById('nav');
-	var img = document.getElementById('img');
 	var body = document.getElementById("body");
 	const anchors = document.querySelectorAll('a[href*="#"]')
 
@@ -29,11 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
 		body.classList.toggle("active");
 	};
 
-	if (screenWidth <= 992) {
-		img.setAttribute('src', './img/BSPP22662.webp');
-	} else {
-		img.setAttribute('src', './img/BSPP2266.webp');
-	};
 
 
 	btn.addEventListener("click", headerFunction);
